@@ -1,0 +1,7 @@
+#spring:
+#  cloud:
+#    consul:
+#      host: 123.57.140.253
+#      #  Consul监听端口8500
+#      port: 8500
+#      enabled: true

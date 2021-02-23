@@ -1,7 +1,6 @@
 package com.seckill.redsion;
 
 import com.seckill.Boot;
-import javafx.application.Application;
 import org.redisson.Redisson;
 import org.redisson.api.RBucket;
 import org.redisson.api.RedissonClient;

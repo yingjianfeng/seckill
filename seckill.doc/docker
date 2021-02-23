@@ -1,0 +1,11 @@
+182.254.166.73
+123.57.140.253
+
+http://123.57.140.253:8888/yingjf/
+yingjf  yingjianfeng
+22端口
+
+
+
+docker run -d -p 8500:8500 -v /data/consul:/consul/data -e CONSUL_BIND_INTERFACE='eth0' --name=consul_server_1 consul agent -server -bootstrap -ui -node=1 -client='0.0.0.0'
+123.57.140.253:8500
