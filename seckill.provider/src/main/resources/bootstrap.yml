@@ -1,0 +1,17 @@
+#spring:
+#   application:
+#  5     name: cjs-redisson-example
+#  6   redis:
+#  7     cluster:
+#  8       nodes: 10.0.29.30:6379, 10.0.29.95:6379, 10.0.29.205:6379
+#  9     lettuce:
+#10       pool:
+#11         min-idle: 0
+#12         max-idle: 8
+#13         max-active: 20
+
+#spring:
+#  redis:
+#    cluster:
+#      nodes: 182.254.166.73:6379,123.57.140.253:6379
+#    password: yingjf

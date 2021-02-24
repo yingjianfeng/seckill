@@ -15,3 +15,9 @@ spring:
         prefer-ip-address: true
         heartbeat:
           enabled: true
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 6000 #单位毫秒
+        readTimeout: 6000 #单位毫秒
